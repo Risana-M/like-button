@@ -1,0 +1,85 @@
+body {
+  background-color: #282323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.instagram-post {
+  background-color: white;
+  border: 1px solid bisque;
+  border-radius: 10px;
+  box-shadow: 0 0 10px wheat;
+  width: 400px;
+  height: 600px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.user-img {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.post-image img {
+  width: 100%;
+  height: 350px;
+  display: block;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+
+.left-icons i {
+  margin-right: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.save-icon {
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  gap: 8px;
+  justify-content: right;
+  align-items: end;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 24px;
+}
+
+
+.like-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.like-btn i {
+  font-size: 24px;
+  transition: transform 0.2s ease;
+}
+
+.like-btn i:active {
+  transform: scale(1.3);
+}
+
+
+.post-info {
+  padding: 10px;
+}
